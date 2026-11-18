@@ -78,10 +78,11 @@ marks=[25,36,49,55,68]
 # print("Highest Mark:",max(marks))
 # print("Lowest Mark:",min(marks))
 
-
-# for x in marks:
-#     if x >= 40:
-#       print(marks.count(x))
+count=0
+for x in marks:
+    if x >= 40:
+      count = count + 1
+print(count)
  
 # marks.sort(reverse=True)
 # print("Decscending:",marks)
@@ -96,12 +97,15 @@ marks=[25,36,49,55,68]
 #  print("Milk is not Available")
 # # print(cart)
 
-employees = [
-    (101, "Anu", "HR", 25000),
-    (102, "John", "IT", 35000),
-    (103, "David", "Finance", 40000)
-]
-# print("Employee Details:",employees)
-# for name in employees:
-#       print(name[1])
-print(max(employees))
+# employees = [
+#     (101, "Anu", "HR", 25000),
+#     (102, "John", "IT", 35000),
+#     (103, "David", "Finance", 40000)
+# ]
+# # print(employees)
+# # for name in employees:
+# #       print(name[1])
+
+# print(max(employees))
+
+
